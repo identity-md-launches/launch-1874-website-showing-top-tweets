@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390" fill="none">
+<defs>
+ <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b3d36b"/><stop offset=".55" stop-color="#739a4e"/><stop offset="1" stop-color="#375d39"/></linearGradient>
+ <linearGradient id="armor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#465e49"/><stop offset="1" stop-color="#172b25"/></linearGradient>
+ <linearGradient id="visor"><stop stop-color="#b5f77c"/><stop offset=".6" stop-color="#56c89d"/><stop offset="1" stop-color="#255c4c"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#76985b" stop-opacity=".22"/><stop offset="1" stop-color="#76985b" stop-opacity="0"/></radialGradient>
+ <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#7f9b69" opacity=".18"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+ <g id="frog">
+  <path d="M74 248Q78 207 111 201L205 198Q238 206 248 250L262 305H58Z" fill="url(#armor)" stroke="#152b20" stroke-width="5"/>
+  <path d="M103 209L130 236H185L211 206M111 236V286M204 235V286" stroke="#718461" stroke-width="4"/>
+  <path d="M113 250H143V284H113ZM174 250H204V284H174Z" fill="#253d30" stroke="#718461" stroke-width="3"/>
+  <path d="M148 242H169V275H148Z" fill="#96c858" stroke="#243d28" stroke-width="3"/>
+  <path d="M153 248V267M162 248V258" stroke="#2a4e30" stroke-width="3"/>
+  <path d="M82 134C79 103 90 65 123 65C142 65 152 79 160 87C170 64 198 63 213 79C229 96 228 121 229 139C255 174 226 214 168 220C107 223 70 193 82 134Z" fill="url(#skin)" stroke="#1b3323" stroke-width="5"/>
+  <path d="M84 156C82 186 105 204 135 207" stroke="#bbd47c" stroke-width="3" opacity=".65"/>
+  <path d="M92 111C100 82 139 79 151 112C135 124 108 122 92 111Z" fill="#e1e3b6" stroke="#263d29" stroke-width="4"/>
+  <path d="M165 110C171 82 209 82 219 114C203 125 180 123 165 110Z" fill="#e1e3b6" stroke="#263d29" stroke-width="4"/>
+  <path d="M94 106C113 101 137 106 149 113M168 108C186 102 205 106 217 114" stroke="#243924" stroke-width="4"/>
+  <ellipse cx="131" cy="111" rx="8" ry="10" fill="#192a20"/><ellipse cx="202" cy="113" rx="8" ry="10" fill="#192a20"/>
+  <circle cx="134" cy="108" r="2" fill="#faf3cd"/><circle cx="205" cy="110" r="2" fill="#faf3cd"/>
+  <path d="M104 164Q159 147 219 162Q231 167 221 178Q167 196 109 182Q94 176 104 164Z" fill="#945749" stroke="#263b26" stroke-width="4"/>
+  <path d="M105 168Q159 179 222 167" stroke="#482c28" stroke-width="4"/>
+  <path d="M113 181Q161 188 210 178" stroke="#b87a59" stroke-width="3"/>
+  <path d="M146 142L148 145M173 141L175 144" stroke="#335430" stroke-width="4" stroke-linecap="round"/>
+ </g>
+</defs>
+<path d="M8 0H720V390H8Z" fill="url(#dots)"/>
+<ellipse cx="404" cy="203" rx="310" ry="240" fill="url(#halo)"/>
+<g stroke="#7a9d63" stroke-opacity=".23"><path d="M30 170H120L142 148H199M555 53H615V90H681M561 249H671L691 229H720M133 351H92V310H46"/><circle cx="199" cy="148" r="5"/><circle cx="681" cy="90" r="4"/><circle cx="46" cy="310" r="4"/><path d="M482 16V54M463 35H501M648 168V186M639 177H657M87 97V111M80 104H94"/></g>
+<!-- analyst: a Pepe in a helmet, carrying a neural scanner -->
+<g transform="translate(91 94) rotate(-9 160 180) scale(.83)">
+ <use href="#frog"/>
+ <path d="M78 126Q63 61 111 46Q178 19 220 66L234 127L216 120Q212 65 166 70L142 78Q103 68 92 124Z" fill="url(#armor)" stroke="#152b20" stroke-width="5"/>
+ <path d="M81 91L112 68L191 54L218 86" stroke="#718461" stroke-width="4"/>
+ <path d="M156 44L168 29L183 38L180 66L161 71Z" fill="#a9d479" stroke="#203d27" stroke-width="4"/>
+ <rect x="72" y="112" width="20" height="47" rx="8" fill="#233e2d" stroke="#172c21" stroke-width="4"/>
+ <path d="M78 113V57L64 42" stroke="#7c9471" stroke-width="6"/><circle cx="64" cy="39" r="7" fill="#b7ea7e"/>
+ <path d="M82 245L56 273L66 300L114 277" fill="url(#skin)" stroke="#1b3323" stroke-width="5"/>
+ <path d="M60 252L118 238L152 285L91 306Z" fill="#132b24" stroke="#607956" stroke-width="5"/>
+ <path d="M73 259L113 249L134 278L95 291Z" fill="#83b86c"/>
+ <path d="M84 270L96 265L110 276L119 264" stroke="#244c36" stroke-width="3"/>
+</g>
+<!-- scout: a Pepe with a cybernetic eye and a shoulder drone -->
+<g transform="translate(441 92) rotate(12 150 160) scale(.78)">
+ <use href="#frog"/>
+ <path d="M81 90L100 71L149 80L162 103L156 131L99 132L85 118Z" fill="#253c2c" stroke="#142a20" stroke-width="5"/>
+ <path d="M98 99H144V118H99Z" fill="url(#visor)"/>
+ <path d="M101 103H142M120 97V120" stroke="#d5ff9c" stroke-width="2"/>
+ <path d="M211 213L241 225L256 212L254 178L239 166" stroke="#5e7955" stroke-width="9"/>
+ <path d="M223 150L241 143L269 159L264 183L242 190L223 173Z" fill="#254333" stroke="#162f23" stroke-width="4"/>
+ <circle cx="248" cy="166" r="10" fill="#b7ed70"/><circle cx="248" cy="166" r="4" fill="#355a36"/>
+ <path d="M101 250L119 262L97 291L77 277" fill="url(#skin)" stroke="#203a26" stroke-width="4"/>
+</g>
+<!-- lead agent: headset, neural harness and a laptop -->
+<g transform="translate(258 23) scale(1.07)">
+ <use href="#frog"/>
+ <path d="M78 119Q66 56 125 45Q190 28 218 72L229 117" stroke="#192d24" stroke-width="16"/>
+ <path d="M79 113Q75 59 125 52Q187 36 214 75L225 110" stroke="#65815b" stroke-width="6"/>
+ <rect x="69" y="114" width="25" height="52" rx="10" fill="#263e30" stroke="#142b21" stroke-width="5"/>
+ <path d="M80 127V152" stroke="#add66c" stroke-width="5"/>
+ <rect x="216" y="113" width="22" height="50" rx="9" fill="#263e30" stroke="#142b21" stroke-width="5"/>
+ <path d="M232 151V176L212 187H196" stroke="#182e23" stroke-width="6" stroke-linecap="round"/>
+ <rect x="184" y="182" width="22" height="11" rx="5" fill="#9eba70" stroke="#213a28" stroke-width="3"/>
+ <path d="M211 66L231 40V20" stroke="#708c60" stroke-width="5"/><circle cx="231" cy="16" r="6" fill="#ccf59a"/>
+ <circle cx="231" cy="16" r="12" stroke="#a4cc76" stroke-opacity=".3"/>
+ <path d="M106 238L82 269L105 292L140 274M211 237L233 264L214 287L190 269" fill="url(#skin)" stroke="#203b27" stroke-width="5"/>
+ <path d="M101 241H213L201 309H111Z" fill="#263d30" stroke="#122a20" stroke-width="5"/>
+ <path d="M105 245H209L203 253H108Z" fill="#6f8760"/>
+ <path d="M103 307H212L223 315H95Z" fill="#69835a" stroke="#142e22" stroke-width="4"/>
+ <rect x="145" y="265" width="27" height="27" rx="5" stroke="#acd67b" stroke-width="3"/>
+ <path d="M150 274L155 279L150 284M160 283H168M151 259V265M166 259V265M151 292V298M166 292V298M139 272H145M139 286H145M172 272H178M172 286H178" stroke="#acd67b" stroke-width="2.5"/>
+</g>
+<path d="M250 361H606" stroke="#93ae72" stroke-opacity=".2" stroke-width="2"/>
+</svg>

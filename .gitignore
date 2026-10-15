@@ -1,0 +1,11 @@
+# Explicit path budget: generated dependencies and caches at every nesting level
+# contribute 0 submitted bytes. dist/ and all source/runtime assets remain included.
+**/node_modules/
+**/.npm/
+**/.pnpm-store/
+**/.vite/
+**/.cache/
+**/coverage/
+**/*.tsbuildinfo
+# Temporary verification artifacts: 0 submitted bytes.
+/test/scratch/
